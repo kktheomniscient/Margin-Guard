@@ -1,0 +1,16 @@
+# Versions verified together on Python 3.12 (see docs/decisions.md D-11)
+numpy==2.5.4
+pandas==2.3.3          # <3: Evidently 0.7 needs a pandas internal removed in 3.x
+pyarrow==26.0.1
+duckdb==2.0.0
+yfinance==1.8.0
+scikit-learn==1.9.1
+lightgbm==4.7.0
+shap==0.54.1
+mlflow==3.18.0
+evidently==0.7.23
+fastapi==0.162.2
+uvicorn[standard]==0.54.0
+pydantic==2.14.3
+pytest==9.2.0
+httpx==0.28.1
